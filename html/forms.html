@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,69 @@
     <title>Formulario do Curriculo</title>
 </head>
 <body>
+    <form id="myForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+
+        <label for="birthdate">Data de Nascimento:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        
+
+        <label for="education">Escolaridade:</label>
+        <select id="education" name="education">
+          <option value="ensino-medio-incompleto">Ensino Médio Incompleto</option>
+          <option value="ensino-medio-completo">Ensino Médio Completo</option>
+          <option value="ensino-superior-incompleto">Ensino Superior Incompleto</option>
+          <option value="ensino-superior-completo">Ensino Superior Completo</option>
+        </select>
+        
+        <br>
+        <br>
+
+        <label for="experience">Experiência:</label>
+        <textarea id="experience" name="experience"></textarea>
+        
+        <br>
+        <br>
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address">
+        
+        <br>
+        <br>
+
+        <label for="languages">Idiomas:</label>
+        
+        <select id="languages" name="languages">
+            <option value="ingles">Ingles</option>
+            <option value="espanhol">Espanhol</option>
+            <option value="Mandarim">Mandarim</option>
+            <option value="Coreano">Coreano</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="certificates">Certificados:</label>
+        <textarea id="certificates" name="certificates"></textarea>
+        
+        <br>
+        <br>
+        <label for="objective">Objetivo Profissional:</label>
+        <textarea id="objective" name="objective"></textarea>
+        
+        <input type="submit" value="Enviar">
+      </form>
+      
     
 
 

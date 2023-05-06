@@ -1,15 +1,3 @@
-//criando elemento
-/*var tNome = document.createElement('div');
-let body = document.querySelector('body')
-
-tNome.classList = 'titulo-nome';
-
-console.log(tNome);
-
-var container = document.querySelector('#container');
-container.appendChild(tNome);*/
-
-//Metodo Do Professor--------------------
 let tags = ['div','h1', 'div' , 'h2', 'p', 'h2', 'p','div', 'h2', 'h3', 'p', 'h3', 'p', 'h3', 'h4','p', 'h4', 'p', 'div', 'h2', 'li', 'li', 'li', 'h2', 'li', 'li', 'li']
 let listaTags = []
 let body = document.querySelector('body')
