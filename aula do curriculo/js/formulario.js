@@ -8,7 +8,7 @@ const form = document.getElementById('myForm');
     //obtém os valores do formulário a partir do objeto FormData
     const name = formData.get('name');
     const email = formData.get('email');
-    const datanasc = formData.get('birthdate');
+    const birthdate = formData.get('birthdate');
     const education = formData.get('education');
     const experience = formData.get('experience');
     const phone = formData.get('phone');
@@ -16,10 +16,11 @@ const form = document.getElementById('myForm');
     const languages = formData.get('languages');
     
     console.log(`Nome: ${name}`);
-    console.log(`E-mail: ${email}`);
+    console.log(`Data de Nascimento: ${birthdate}`)
     console.log(`Escolaridade: ${education}`);
     console.log(`Experiencia: ${experience}`);
     console.log(`Telefone: ${phone}`);
+    console.log(`E-mail: ${email}`);
     console.log(`Endereço: ${address}`);
     console.log(`Idiomas: ${languages}`)
 
