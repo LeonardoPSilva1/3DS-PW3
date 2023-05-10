@@ -24,7 +24,4 @@ const form = document.getElementById('myForm');
     console.log(`Endereço: ${address}`);
     console.log(`Idiomas: ${languages}`)
 
-
-    
-
   });

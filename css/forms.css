@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(228, 246, 245);
+    padding: 15px;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+form{ 
+    background-color: rgb(117, 234, 255);
+    border-radius: 15px;
+    
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 60%);
+
+    padding: 25px;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+    margin-left: 32vw;
+    margin-right: 32vw;
+
+    height: auto;
+    width: 30vw;
+
+    line-height: 1.5em;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+input{
+    margin-top: 0.5vh;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding-left: 12vh;
+    padding-right: 12vh;
+    width: 4vw;
+    line-height: 2em;
+    margin-right: 13.2vw;
+}
+#experience, #certificates, #objective{
+    position: relative;
+    top: 1.3vh;
+}
+#Enviar{
+    
+    background-color: crimson;
+    color: white; 
+    border-radius: 15px;
+
+    font-size: 1.3em; 
+    font-weight: bolder;  
+   
+    
+    margin: 0px;
+    padding: 0px;
+
+    position: relative;
+    bottom: -5vh;
+    left: 8vw;
+
+    height: 53px;
+    width: 6vw;
+
+}
+
+#Enviar:is(:hover, :focus){
+  -webkit-mask-position: right;
+  transition: -webkit-mask-position 2s linear;
+  background-color: lawngreen;
+}
+
+

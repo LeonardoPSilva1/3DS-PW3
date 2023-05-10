@@ -8,7 +8,7 @@
     <title>Formulario do Curriculo</title>
 </head>
 <body>
-    <form id="myForm">
+    <form id="myForm" action="../index.html" method="GET">
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name" required>
         
@@ -68,23 +68,8 @@
         <label for="objective">Objetivo Profissional:</label>
         <textarea id="objective" name="objective"></textarea>
         
-        <input type="submit" value="Enviar" >
+        <input id="Enviar" type="submit" value="Enviar" >
       </form>
-
-      <button onclick="printPage()">Imprimir</button>
-
-    <script>
-    function printPage() {
-        window.print();
-    }
-    </script>
-
-      
-    
-
-
-
-    <script src="/aula do curriculo/js/formulario.js"></script>
 </body>
 </html>
 
